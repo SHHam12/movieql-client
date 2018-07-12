@@ -6,7 +6,8 @@ export const HOME_PAGE = gql`
       id,
       title,
       genres,
-      rating
+      rating,
+      medium_cover_image
     }
   }
 `;
